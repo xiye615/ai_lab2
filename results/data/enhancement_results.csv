@@ -1,0 +1,16 @@
+﻿experiment,scenario,depth,configuration,best_action,value,visited_nodes,leaf_evaluations,cutoffs,pruned_branches,cache_hits,cache_stores,runtime_ms_median,path,cost,expanded_nodes
+game_ablation,pdf_four_treasures,4,baseline,T3,3.0,47,16,5,6,0,0,0.227,,,
+game_ablation,pdf_four_treasures,4,ordering,T3,3.0,37,12,6,8,0,0,0.36125,,,
+game_ablation,pdf_four_treasures,4,cache,T3,3.0,47,10,5,6,6,41,0.31905,,,
+game_ablation,pdf_four_treasures,4,ordering_cache,T3,3.0,37,8,6,8,4,33,0.4389,,,
+game_ablation,open_grid_six_treasures,4,baseline,T5,4.0,220,130,44,87,0,0,0.9602,,,
+game_ablation,open_grid_six_treasures,4,ordering,T5,4.0,111,55,36,87,0,0,1.18085,,,
+game_ablation,open_grid_six_treasures,4,cache,T5,4.0,220,91,44,87,39,181,1.5304,,,
+game_ablation,open_grid_six_treasures,4,ordering_cache,T5,4.0,111,50,36,87,5,106,1.4657,,,
+game_ablation,open_grid_six_treasures,6,baseline,T2,6.0,366,116,65,111,0,0,1.72585,,,
+game_ablation,open_grid_six_treasures,6,ordering,T2,6.0,213,64,47,92,0,0,2.17075,,,
+game_ablation,open_grid_six_treasures,6,cache,T2,6.0,273,18,64,110,97,188,2.01335,,,
+game_ablation,open_grid_six_treasures,6,ordering_cache,T2,6.0,175,18,47,92,42,133,2.3065,,,
+astar_counterexample,zero_cost_terrain,,zero,,,,,,,,,0.0262,"[(0, 0), (1, 0), (2, 0), (2, 1), (2, 2)]",1.0,6
+astar_counterexample,zero_cost_terrain,,adjusted_manhattan,,,,,,,,,0.0327,"[(0, 0), (1, 0), (2, 0), (2, 1), (2, 2)]",1.0,6
+astar_counterexample,zero_cost_terrain,,manhattan,,,,,,,,,0.02305,"[(0, 0), (0, 1), (0, 2), (1, 2), (2, 2)]",3.0,5

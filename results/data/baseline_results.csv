@@ -1,0 +1,18 @@
+﻿category,scenario,algorithm,configuration,depth,result,cost_or_value,expanded_or_visited_nodes,generated_nodes,leaf_evaluations,cutoffs,pruned_branches,max_frontier,runtime_ms_median
+astar,task1_pdf_maze,A*,zero,,"[(0, 0), (0, 1), (0, 2), (1, 2), (1, 3), (1, 4), (2, 4), (3, 4)]",7.0,16,17,,,,3,0.0645
+astar,task1_pdf_maze,A*,manhattan,,"[(0, 0), (0, 1), (0, 2), (1, 2), (1, 3), (1, 4), (2, 4), (3, 4)]",7.0,8,11,,,,4,0.0354
+astar,task2_pdf_weighted,A*,zero,,"[(0, 0), (1, 0), (2, 0), (3, 0), (3, 1), (3, 2), (4, 2), (4, 3), (4, 4)]",7.0,15,24,,,,10,0.0839
+astar,task2_pdf_weighted,A*,adjusted_manhattan,,"[(0, 0), (1, 0), (2, 0), (3, 0), (3, 1), (3, 2), (4, 2), (4, 3), (4, 4)]",7.0,11,19,,,,9,0.069
+astar,task2_pdf_weighted,A*,manhattan,,"[(0, 0), (1, 0), (2, 0), (3, 0), (3, 1), (3, 2), (4, 2), (4, 3), (4, 4)]",7.0,11,19,,,,9,0.06325
+game_tree,task3_pdf_tree,minimax,left_to_right,,0,5.0,15,,8,0,0,,0.0313
+game_tree,task3_pdf_tree,alpha_beta,left_to_right,,0,5.0,14,,7,1,1,,0.0352
+game_tree,task3_pdf_tree,alpha_beta,best_first,,0,5.0,11,,5,2,2,,0.05685
+game_tree,task3_pdf_tree,alpha_beta,worst_first,,0,5.0,15,,8,0,0,,0.0638
+treasure_game,task4_pdf_map,minimax,left_to_right,2,T2,-1.0,17,,12,0,0,,0.06895
+treasure_game,task4_pdf_map,alpha_beta,left_to_right,2,T2,-1.0,13,,8,2,4,,0.06345
+treasure_game,task4_pdf_map,alpha_beta,best_first,2,T2,-1.0,11,,6,3,6,,0.10985
+treasure_game,task4_pdf_map,alpha_beta,worst_first,2,T2,-1.0,16,,11,1,1,,0.1265
+treasure_game,task4_pdf_map,minimax,left_to_right,4,T3,3.0,65,,24,0,0,,0.2731
+treasure_game,task4_pdf_map,alpha_beta,left_to_right,4,T3,3.0,47,,16,5,6,,0.2425
+treasure_game,task4_pdf_map,alpha_beta,best_first,4,T3,3.0,37,,12,6,8,,0.36015
+treasure_game,task4_pdf_map,alpha_beta,worst_first,4,T3,3.0,53,,19,2,3,,0.4705
